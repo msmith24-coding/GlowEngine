@@ -2,10 +2,27 @@ CMakeLists.txt.user
 CMakeCache.txt
 CMakeFiles
 CMakeScripts
-Testing
+
+# Files to ignore
 Makefile
 cmake_install.cmake
 install_manifest.txt
 compile_commands.json
 CTestTestfile.cmake
-_deps
+
+# Directories
+.cache/
+crash-reports/
+
+# Binaries and Executables
+*.a
+*.dylib
+
+*.dll
+*.lib
+
+*.so
+
+GlowEngine_sandbox
+*.app
+*.exe
